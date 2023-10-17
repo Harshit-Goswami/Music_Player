@@ -16,6 +16,6 @@ class AboutActivity : AppCompatActivity() {
         supportActionBar?.title = "About"
 
         binding.aboutTxt.text = "Developed By: Harshit Goswami" +
-                "\n\nIf you ant to provide feedback, I will love to hear that "
+                "\n\nIf you want to provide feedback, I will love to hear that "
     }
 }
