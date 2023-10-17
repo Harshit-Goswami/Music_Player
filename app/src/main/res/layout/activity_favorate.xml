@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Favorate">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginTop="2dp"
+       >
+
+        <RelativeLayout
+            android:id="@+id/favorateToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="?attr/themeColor">
+
+            <ImageView
+                android:id="@+id/BackBtnFA"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/favourite_txt"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favorateRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favorateToolbar"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:scrollbarThumbVertical="@drawable/ic_scrollbar_icon"
+            android:scrollbars="vertical" />
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+           android:id="@+id/shuffleBtnFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="20dp"
+            app:icon="@drawable/ic_shuffle"
+            android:backgroundTint="@color/white"
+            app:iconTint="?attr/themeColor"
+            app:strokeColor="?attr/themeColor" app:strokeWidth="2dp"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

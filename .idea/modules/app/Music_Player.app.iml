@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Music Player" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="7.4.2" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="8.1.1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;D:/Harshit/android applications/caches/transforms-3/a312ab01125a12af1cecd410362767a1/transformed/jetified-viewbinding-7.0.4-api.jar;D:/Harshit/android applications/caches/transforms-3/f58c251ecd91810a9690b4d7051fb199/transformed/jetified-kotlin-stdlib-jdk8-1.6.10.jar;D:/Harshit/android applications/caches/transforms-3/016b7a46985d8e65e458daa4a3f9ac0e/transformed/jetified-core-ktx-1.7.0-api.jar;D:/Harshit/android applications/caches/transforms-3/d8187c278fe58e6ceb355c38c4f7c739/transformed/material-1.6.0-api.jar;D:/Harshit/android applications/caches/transforms-3/2f0cdd0ad9b40420dc4a37fc65df18bf/transformed/appcompat-1.4.1-api.jar;D:/Harshit/android applications/caches/transforms-3/f46aaa52a2ef998c655df84ef5660f6f/transformed/legacy-support-v4-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/f8b34a73c7a2b05b9f6d2b40881a7ac6/transformed/media-1.6.0-api.jar;D:/Harshit/android applications/caches/transforms-3/58d51289e1b8112e25e44b63bb219c76/transformed/jetified-glide-4.13.0-api.jar;D:/Harshit/android applications/caches/transforms-3/8525f43cae76bfedc6ab18911e913218/transformed/jetified-viewpager2-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/f43edf74ac2943fe704e56f062e2ab7d/transformed/fragment-1.3.6-api.jar;D:/Harshit/android applications/caches/transforms-3/ffccbbf913a789d8268a156dbaa26432/transformed/jetified-activity-1.2.4-api.jar;D:/Harshit/android applications/caches/transforms-3/f711b36499025f4cb2764653356d2590/transformed/jetified-appcompat-resources-1.4.1-api.jar;D:/Harshit/android applications/caches/transforms-3/eaeaa18b1a50e127856425ed7dfc66de/transformed/legacy-support-core-ui-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/333b14f99f04c4b1d2c20fd72450b8cb/transformed/drawerlayout-1.1.1-api.jar;D:/Harshit/android applications/caches/transforms-3/a055ccf2083210f806af7ac743faaeda/transformed/coordinatorlayout-1.1.0-api.jar;D:/Harshit/android applications/caches/transforms-3/26b48987469a04e578a91edc72eca1df/transformed/dynamicanimation-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/cdf842eb06e33c451f3a89a657d44a04/transformed/recyclerview-1.1.0-api.jar;D:/Harshit/android applications/caches/transforms-3/42f8879856d23d3b1285fa121d751a74/transformed/transition-1.2.0-api.jar;D:/Harshit/android applications/caches/transforms-3/8f49f6fcbe74903b175d4843584cbe08/transformed/vectordrawable-animated-1.1.0-api.jar;D:/Harshit/android applications/caches/transforms-3/49d6055aecee742db56730d8e509358f/transformed/vectordrawable-1.1.0-api.jar;D:/Harshit/android applications/caches/transforms-3/e113d379970116abcdac9935c1c157c4/transformed/legacy-support-core-utils-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/da3f42051f09fd6dd48aaa28199da437/transformed/viewpager-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/de6dd78b0ca7ada95443720ddcf527c8/transformed/loader-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/00e9a2f539967b376604b66030105ba8/transformed/slidingpanelayout-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/ea538fa315c479d69b236a295d340db0/transformed/customview-1.1.0-api.jar;D:/Harshit/android applications/caches/transforms-3/ab61f25925f114eb6f399a27ab53b4ac/transformed/swiperefreshlayout-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/eb6de01e31ff2c2f6fd647dbc590e607/transformed/asynclayoutinflater-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/369c3669332a6987c790712d243cbfff/transformed/core-1.7.0-api.jar;D:/Harshit/android applications/caches/transforms-3/894b816b260fe8d69851d59b023b5537/transformed/cursoradapter-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/22f0d424c86cd68aad73aba0610d29f9/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar;D:/Harshit/android applications/caches/transforms-3/ad87c095e84ea33a803a214b23c2d3aa/transformed/jetified-savedstate-1.1.0-api.jar;D:/Harshit/android applications/caches/transforms-3/28b33b3742cbb74829bee0a6fe0e8eb3/transformed/cardview-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/bbc10901eb4d4fa27211358991ed661d/transformed/lifecycle-runtime-2.4.0-api.jar;D:/Harshit/android applications/caches/transforms-3/d11ae4dc61b2e8323e7082e687722f60/transformed/jetified-gifdecoder-4.13.0-api.jar;D:/Harshit/android applications/caches/transforms-3/a078035887529ce818a9dc0ab29f7ae7/transformed/exifinterface-1.2.0-api.jar;D:/Harshit/android applications/caches/transforms-3/e8621c0eef5bfd080e294a2e39f4c822/transformed/versionedparcelable-1.1.1-api.jar;D:/Harshit/android applications/caches/transforms-3/b5d3db9816ecacdc01db75d4aeef3786/transformed/lifecycle-viewmodel-2.3.1-api.jar;D:/Harshit/android applications/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;D:/Harshit/android applications/caches/transforms-3/bfce9838203f2e1d0b6c6486751e4e9e/transformed/lifecycle-livedata-2.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/49432a48b8be0375d1c8b703d2d343e3/transformed/lifecycle-livedata-core-2.3.1-api.jar;D:/Harshit/android applications/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.4.0.jar;D:/Harshit/android applications/caches/transforms-3/d7e0de05d587f82030159607746dd09a/transformed/core-runtime-2.1.0-api.jar;D:/Harshit/android applications/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;D:/Harshit/android applications/caches/transforms-3/6785e54c53fe77871e9314f58b1baa24/transformed/documentfile-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/afebebfffb34a19b40d669302b4815b9/transformed/localbroadcastmanager-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/1e45818bb0ceb4cd824f4ee838a34cb3/transformed/print-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/54b230c6f3d266af90854e122d17e564/transformed/interpolator-1.0.0-api.jar;D:/Harshit/android applications/caches/modules-2/files-2.1/androidx.annotation/annotation/1.3.0/21f49f5f9b85fc49de712539f79123119740595/annotation-1.3.0.jar;D:/Harshit/android applications/caches/transforms-3/7b27daa526913ce82f97885f71d672a3/transformed/jetified-kotlin-stdlib-jdk7-1.6.10.jar;D:/Harshit/android applications/caches/transforms-3/61155fb20950b8dd761b38dfd715a52c/transformed/jetified-kotlin-stdlib-1.6.10.jar;D:/Harshit/android applications/caches/transforms-3/776cc9e00346e40ea9b18f46aeae88f8/transformed/jetified-annotations-13.0.jar;D:/Harshit/android applications/caches/transforms-3/d6f50cac27dd883897c763a9ead1b201/transformed/jetified-kotlin-stdlib-common-1.6.10.jar;D:/Harshit/android applications/caches/transforms-3/8b3c4d60f7c9c79a38c8b3d17f883270/transformed/jetified-annotation-experimental-1.1.0-api.jar;D:/Harshit/android applications/caches/transforms-3/4a2c5adabb254d5b3a5a5d5004b08b40/transformed/jetified-tracing-1.0.0-api.jar;D:/Harshit/android applications/caches/transforms-3/0baf076d50f096686a2c8c48ef65f1b8/transformed/constraintlayout-2.1.4-api.jar;D:/Harshit/android applications/caches/transforms-3/fa4ecc27a2540accad7b55ceec0c2875/transformed/jetified-disklrucache-4.13.0.jar;D:/Harshit/android applications/caches/transforms-3/4253cb858737c67418c5436500bd6c85/transformed/jetified-annotations-4.13.0.jar;D:/Harshit/android applications/caches/transforms-3/716b94ab913affc5533917d10d493bc8/transformed/jetified-gson-2.8.9.jar;C:/Users/Harshit Go/AppData/Local/Android/Sdk/platforms/android-31/android.jar;C:/Users/Harshit Go/AppData/Local/Android/Sdk/build-tools/30.0.2-2/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app">
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

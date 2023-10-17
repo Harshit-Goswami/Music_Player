@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="curved_bg">
+        <item name="cornerSize">15dp</item>
+        <item name="backgroundTint">?attr/themeColor</item>
+    </style>
+</resources>
