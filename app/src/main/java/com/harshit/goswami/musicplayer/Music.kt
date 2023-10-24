@@ -1,7 +1,7 @@
 package com.harshit.goswami.musicplayer
 
 import android.app.Service
-import android.media.AudioFocusRequest
+import android.graphics.Bitmap
 import android.media.MediaMetadataRetriever
 import java.io.File
 import java.util.concurrent.TimeUnit
@@ -57,9 +57,8 @@ fun setSongPosition(increment: Boolean) {
 
 fun exitApplication() {
     if (PlayerActivity.musicService != null) {
-        PlayerActivity.musicService!!.audioManager
-            .abandonAudioFocus(PlayerActivity.musicService)
-        PlayerActivity.musicService!!.stopForeground(Service.STOP_FOREGROUND_DETACH)
+        PlayerActivity.musicService!!.audioManager.abandonAudioFocus(PlayerActivity.musicService)
+        PlayerActivity.musicService!!.stopForeground(Service.STOP_FOREGROUND_REMOVE)//true
         PlayerActivity.musicService!!.mediaPlayer!!.release()
         PlayerActivity.musicService = null
         exitProcess(1)
@@ -84,4 +83,11 @@ fun checkPlalist(plalist: ArrayList<Music>): ArrayList<Music> {
             plalist.removeAt(index)
     }
     return plalist
+}
+
+fun getMainColor(img: Bitmap): Int {
+    val newImg = Bitmap.createScaledBitmap(img, 1, 1, true)
+    val color = newImg.getPixel(0, 0)
+    newImg.recycle()
+    return color
 }

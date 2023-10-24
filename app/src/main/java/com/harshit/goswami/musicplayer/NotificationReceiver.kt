@@ -27,7 +27,7 @@ class NotificationReceiver : BroadcastReceiver() {
     fun playmusic() {
         PlayerActivity.isPlaying = true
         PlayerActivity.musicService!!.mediaPlayer!!.start()
-        PlayerActivity.musicService!!.showNotification(R.drawable.ic_pause, 1F)
+        PlayerActivity.musicService!!.showNotification(R.drawable.ic_pause)
         PlayerActivity.binding.playPauseBtn.setIconResource(R.drawable.ic_pause)
         NowPlaying.binding.playPauseBtnNP.setIconResource(R.drawable.ic_pause)
     }
@@ -35,7 +35,7 @@ class NotificationReceiver : BroadcastReceiver() {
     fun pausemusic() {
         PlayerActivity.isPlaying = false
         PlayerActivity.musicService!!.mediaPlayer!!.pause()
-        PlayerActivity.musicService!!.showNotification(R.drawable.ic_play, 0F)
+        PlayerActivity.musicService!!.showNotification(R.drawable.ic_play)
         PlayerActivity.binding.playPauseBtn.setIconResource(R.drawable.ic_play)
         NowPlaying.binding.playPauseBtnNP.setIconResource(R.drawable.ic_play)
 

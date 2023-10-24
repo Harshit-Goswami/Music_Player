@@ -73,8 +73,7 @@ class MainActivity : AppCompatActivity() {
         setTheme(navThemes[themeIndex])
         bindind = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindind.root)
-
-
+        if (PlayerActivity.isPlaying) bindind.nowPlaying.visibility = View.VISIBLE
         // for nav drawer
         toggle = ActionBarDrawerToggle(this, bindind.root, R.string.open, R.string.close)
         bindind.root.addDrawerListener(toggle)
@@ -265,6 +264,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        if (PlayerActivity.isPlaying) bindind.nowPlaying.visibility = View.VISIBLE
         // For storing favourite data using shared preferences
         val editor = getSharedPreferences("Favourtes", MODE_PRIVATE).edit()
         val jsonString = GsonBuilder().create().toJson(Favorate.favouriteSongs)
