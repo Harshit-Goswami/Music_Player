@@ -150,6 +150,12 @@ class PlayerActivity : AppCompatActivity(), ServiceConnection, MediaPlayer.OnCom
                 Favorate.favouriteSongs.add(musicListPA[songPosition])
             }
         }
+        binding.back10Sec.setOnClickListener {
+            musicService?.mediaPlayer?.seekTo(musicService!!.mediaPlayer!!.currentPosition - 10000)
+        }
+        binding.forword10Sec.setOnClickListener {
+            musicService?.mediaPlayer?.seekTo(musicService!!.mediaPlayer!!.currentPosition + 10000)
+        }
     }
 
 
@@ -158,7 +164,8 @@ class PlayerActivity : AppCompatActivity(), ServiceConnection, MediaPlayer.OnCom
             .load(musicListPA[songPosition].artUri)
             .apply(RequestOptions().placeholder(R.drawable.musical_note_icon2)).centerCrop()
             .into(binding.playerImg)
-        binding.txtSongNamePA.text = musicListPA[songPosition].title
+        binding.txtSongNamePA.text =
+            "${musicListPA[songPosition].title}, ${musicListPA[songPosition].artist}, ${musicListPA[songPosition].album}"
         binding.tvSeekBarEnd.text = timeFormat(musicListPA[songPosition].duration)
         if (repeat) binding.repeatBtn.setColorFilter(
             ContextCompat.getColor(
@@ -189,7 +196,6 @@ class PlayerActivity : AppCompatActivity(), ServiceConnection, MediaPlayer.OnCom
             GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP, intArrayOf(0xFFFFFF, bgColor))
         binding.root.background = gradient
         window.statusBarColor = bgColor
-
     }
 
     private fun createMediaPlayer() {

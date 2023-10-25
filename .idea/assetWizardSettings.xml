@@ -309,7 +309,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/C:/Users/Harshit%20Go/AppData/Local/Android/Sdk/icons/material/materialicons/sort/baseline_sort_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/replay_10/baseline_replay_10_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -319,7 +319,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_sort_24" />
+                            <entry key="outputName" value="baseline_replay" />
                             <entry key="sourceFile" value="D:\Harshit\KotlinProjects\MusicPlayer" />
                           </map>
                         </option>

@@ -34,7 +34,6 @@ class MusicService : Service(), AudioManager.OnAudioFocusChangeListener {
 
     fun showNotification(playPauseBtn: Int) {
         val intent = Intent(baseContext, MainActivity::class.java)
-
         val flag = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             PendingIntent.FLAG_IMMUTABLE
         } else {
@@ -42,7 +41,7 @@ class MusicService : Service(), AudioManager.OnAudioFocusChangeListener {
         }
 
         val contentIntent = PendingIntent.getActivity(
-            baseContext, 0, intent,
+            this, 0, intent,
             flag
         )//,0
 
@@ -277,7 +276,7 @@ class MusicService : Service(), AudioManager.OnAudioFocusChangeListener {
         mediaSession.isActive = true
 
 //        }
-        startForeground(13, notification.build())
+        startForeground(10, notification.build())
     }
 
     fun createMediaPlayer() {
