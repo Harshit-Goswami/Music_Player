@@ -200,7 +200,6 @@
                 android:textColor="@color/black" />
         </RelativeLayout>
 
-
         <LinearLayout
             android:id="@+id/tools"
             android:layout_width="match_parent"
